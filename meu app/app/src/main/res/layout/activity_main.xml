@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEAEA"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/mapImage"
+            android:layout_width="130dp"
+            android:layout_height="127dp"
+            android:backgroundTint="#8C2E2E"
+            android:foregroundTint="#FF0000"
+            android:tint="#000000"
+            tools:layout_editor_absoluteX="139dp"
+            tools:layout_editor_absoluteY="176dp"
+            tools:srcCompat="@android:drawable/ic_dialog_map" />
+
+        <Button
+            android:id="@+id/btnPesquisar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesquisar"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+        <EditText
+            android:id="@+id/editEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Wigglytuff area"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <TextView
+            android:id="@+id/mainTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pokemon Areas"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="156dp"
+            tools:layout_editor_absoluteY="516dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
